@@ -1,0 +1,49 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1729864210133-aaee297d61c3?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4ODQ4NzF8&ixlib=rb-4.0.3&q=85") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+ background-color: #333333;
+ opacity: 0.5;
+font-family: Inter,serif;
+}
+.container{
+  background-color:#0d0d0d;
+  padding: 20px;
+  width: 100%;
+}
+span{
+  color: aqua;
+  font-weight: bold;
+  font-size:20px;
+  margin-left: 10px;
+}
+.firstheader{
+  margin-left: 10PX;
+  display: block;
+color: white;
+font-weight: bold;
+
+
+}
+
+.main{
+  display: block;
+  margin: 0px;
+  background-color: #333333;
+}
+.firstlist{
+  color: white;
+  max-width: 400px;
+  
+}
+li{
+  margin: 10px;
+}
+ /* used to style bullets */
+li::marker{
+  color: aqua;
+  font-size: 30px;
+}
+
